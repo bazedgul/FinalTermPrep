@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21765a72-d3a0-4475-af73-ce8fe2892481" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalTermPrep.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dynamic_Function_Dispatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunctionOverriding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThisSuper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/package-info.java" afterDir="false" />
+    <list default="true" id="21765a72-d3a0-4475-af73-ce8fe2892481" name="Changes" comment="Use of Inheritance and Super">
+      <change afterPath="$PROJECT_DIR$/src/Abstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfacesDefaultMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -50,9 +47,16 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Dynamic_Function_Dispatch">
-    <configuration name="Dynamic_Function_Dispatch (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dynamic_Function_Dispatch" />
+  <component name="RunManager" selected="Application.InterfacesDefaultMethod">
+    <configuration name="Abstract (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstract" />
+      <module name="FinalTermPrep" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Abstract" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstract" />
       <module name="FinalTermPrep" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -65,22 +69,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionOverriding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionOverriding" />
+    <configuration name="Interfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaces" />
       <module name="FinalTermPrep" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThisSuper (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThisSuper" />
-      <module name="FinalTermPrep" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThisSuper (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThisSuper" />
+    <configuration name="InterfacesDefaultMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfacesDefaultMethod" />
       <module name="FinalTermPrep" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterfacesDefaultMethod" />
+        <item itemvalue="Application.Interfaces" />
+        <item itemvalue="Application.Abstract" />
+        <item itemvalue="Application.Abstract (1)" />
         <item itemvalue="Application.Dynamic_Function_Dispatch" />
-        <item itemvalue="Application.Dynamic_Function_Dispatch (1)" />
-        <item itemvalue="Application.FunctionOverriding" />
-        <item itemvalue="Application.ThisSuper (4)" />
-        <item itemvalue="Application.ThisSuper (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -105,6 +102,21 @@
       <option name="presentableId" value="Default" />
       <updated>1673085489676</updated>
     </task>
+    <task id="LOCAL-00001" summary="Use of Inheritance">
+      <created>1673097075044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673097075044</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Use of Inheritance and Super">
+      <created>1673097190140</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673097190140</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,5 +129,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Use of Inheritance" />
+    <MESSAGE value="Use of Inheritance and Super" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use of Inheritance and Super" />
   </component>
 </project>
